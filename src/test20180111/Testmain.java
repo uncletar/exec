@@ -20,17 +20,17 @@ public class Testmain {
 			while ((i = in.read(b)) > 0) {
 				outp.write(b, 0, i);
 			}
-		} catch (IOException e) {
- 
-		} finally {
+			
 			if(outp != null){
 				outp.flush();
 				outp.close();
 			}
 			if(in != null){
 				in.close();
-			}
-		}
+			}			
+		} catch (IOException e) {
+ 
+		} 
  
 	}
 
