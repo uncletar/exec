@@ -21,13 +21,13 @@ public class Testmain {
 				outp.write(b, 0, i);
 			}
 			
-			if(outp != null){
+			//if(outp != null){
 				outp.flush();
 				outp.close();
-			}
-			if(in != null){
+			//}
+			//if(in != null){
 				in.close();
-			}			
+			//}			
 		} catch (IOException e) {
  
 		} 
